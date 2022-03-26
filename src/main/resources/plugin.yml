@@ -1,0 +1,10 @@
+name: aShutdown
+version: '${project.version}'
+main: pl.allowsik.aShutdown
+api-version: 1.18
+authors: [ Allowsik ]
+description: A simple plugined for scheduling restarts
+commands:
+  shutdown:
+    permission: ashutdown.shutdown
+    description: Restarts the server
